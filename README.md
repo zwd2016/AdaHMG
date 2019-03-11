@@ -1,5 +1,5 @@
 # AdaHMG
-AdaHMG: A new updating rule is proposed based on mixed high power historical and current squared gradients to construct a targeted first-order optimization algorithm for the adaptive learning rate.
+AdaHMG: A new updating rule is proposed based on mixed high power historical and current squared gradients to construct a targeted first-order optimization algorithm for the adaptive learning rate. Both the loss function curve and the evaluation metrics show that AdaHMG algorithm has better performance in accuracy, RMSE, and convergence (Especially suitable for time series prediction tasks!!).
 # References
 Jun Hu and Wendong Zheng, "An Adaptive Optimization Algorithm Based on Hybrid Power and Multidimensional Update Strategy", IEEE Access, 2019, vol. 7(1), pp. 19355-19369.
 # Datasets
@@ -19,5 +19,5 @@ Jun Hu and Wendong Zheng, "An Adaptive Optimization Algorithm Based on Hybrid Po
 python LSTM_pollution1.py
 2. train AdaHMG algorithm on MNIST dataset:
 python mnist-cnn.py
-# Our Experiment environment
+# Our Experiment Environment
 The CPU of the experimental device is i7-7700HQ, and the GPU is NVIDIA's GTX 1050 with a memory size of 2GB.
