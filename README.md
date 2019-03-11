@@ -21,3 +21,5 @@ python LSTM_pollution1.py
 python mnist-cnn.py
 # Our Experiment Environment
 The CPU of the experimental device is i7-7700HQ, and the GPU is NVIDIA's GTX 1050 with a memory size of 2GB.
+# Convergence Analysis
+Detailed theoretical analysis is in Section 4 and in the appendix of the AdaHMG-access-01561.pdf.
