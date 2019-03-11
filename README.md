@@ -14,4 +14,10 @@ Jun Hu and Wendong Zheng, "An Adaptive Optimization Algorithm Based on Hybrid Po
 6. matplotlib
 7. pandas
 8. sklearn
-
+# Usage
+1. train AdaHMG algorithm on PM2.5 dataset:
+python LSTM_pollution1.py
+2. train AdaHMG algorithm on MNIST dataset:
+python mnist-cnn.py
+# Our Experiment environment
+The CPU of the experimental device is i7-7700HQ, and the GPU is NVIDIA's GTX 1050 with a memory size of 2GB.
